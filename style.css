@@ -219,12 +219,7 @@ footer {
         border-color: #f0a500;
         border-radius: 4px;}
         
-         .logo {
-    width: 125px; /* Largura da logo */
-    height: auto; /* Mantém a proporção */
-    display: block; /* Opcional: Remove espaços extras ao redor */
-    margin: 0 auto; /* Centraliza a logo horizontalmente */
-}
+       
 
     
 
