@@ -193,23 +193,19 @@ footer {
 
 /* responsividade */
 
- @media (max-width: 768px) {
-    .services-list {
-        flex-direction: column;
+@media (max-width: 768px) {
+    /* Esconder menu web e menu mobile no mobile */
+    #menuWeb,      /* menu principal desktop */
+    #menuMobile,   /* menu hamburger/mobile */
+    .icon-menu {   /* botão hamburger */
+        display: none !important;
     }
 
-    .service-item {
-        flex: 1 1 100%;
-    }
 
-     h1 {
-        font: size 0.4rem;
-    }
-
-    nav a {
-        
-        margin: 0 0.5rem;
-        font-size: 0.9rem;
+           .logo {
+        width: 180px; /* aumenta a logo */
+        margin: 20px auto;
+        display: block;
     }
 
 
