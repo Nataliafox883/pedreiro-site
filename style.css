@@ -120,9 +120,9 @@ nav a:hover {
 
 .service-item:hover {
     border-color: #f0a500;
-    border-radius: 4px;
-    transform: scale(1.1);
+    border-radius: 2px;
     transition: 0.3s ease;
+    
    
 
 
@@ -163,10 +163,10 @@ nav a:hover {
 
 .impacto :hover{
     
-    padding: 1.5rem;
+    padding: 0.5rem;
     border: solid 1px #d18e00;
     border-radius: 5px;
-    transform: scale(1.1);
+    transform: scale(1);
     transition: 0.3s ease;}
 
 
@@ -194,17 +194,12 @@ footer {
 /* responsividade */
 
 @media (max-width: 768px) {
-    /* Esconder menu web e menu mobile no mobile */
-    #menuWeb,      /* menu principal desktop */
-    #menuMobile,   /* menu hamburger/mobile */
-    .icon-menu {   /* botão hamburger */
-        display: none !important;
-    }
 
 
-           .logo {
-        width: 180px; /* aumenta a logo */
-        margin: 20px auto;
+      .logo 
+       {
+        width:12rem; /* aumenta a logo */
+        margin: auto;
         display: block;
     }
 
