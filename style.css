@@ -221,7 +221,31 @@ footer {
         
        
 
-    
+     /* configurando o menu hamburguer */
+
+     .nav-item {
+       display: none;
+       margin:10%;
+
+     }
+
+     .menu-mobile ul{
+        display: flex;
+        flex-direction: column;
+        text-align:center;
+      position:absolute;}
+      
+
+     .menu-mobile .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+        
+    }
+
+    .menu-mobile .icon-menu {
+        width: 100%;
+     
+    }
 
         /* ALELUIA CONSEGUI */
      
