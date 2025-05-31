@@ -41,5 +41,10 @@ function toggleMenu() {
     menuMobile.style.display = menuMobile.style.display === 'flex' ? 'none' : 'flex';
   }
 
+  function clickMenu() {
+    const menu = document.getElementById('menuMobile');
+    menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+}
+
 
   
