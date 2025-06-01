@@ -19,11 +19,9 @@ header {
   
     background-color: #333;
     color: #fff;
-
-    
+    padding-block:5px;
    
    
-    
 }
 
 
@@ -31,7 +29,7 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
-    padding:14px;
+    padding:5px;
     background-color:#333;
    
 
@@ -43,7 +41,7 @@ nav a , ul {
     list-style: none;
     color: #fff;
     text-decoration: none;
-    margin: auto;
+    margin:auto;
     font-weight: bold;
    
    
@@ -75,11 +73,12 @@ nav a:hover {
 
   /* TESTE LOGO CONFIG */
   .logo {
-    width: 120px; /* Largura da logo */
+    width: 130px; /* Largura da logo */
     height: auto; /* Mantém a proporção */
-    display: block; /* Opcional: Remove espaços extras ao redor */
-    margin: 0 auto; /* Centraliza a logo horizontalmente */
-}
+    display:block; /* Opcional: Remove espaços extras ao redor */
+    margin:auto; /* Centraliza a logo horizontalmente */
+
+  }
 
 
 .container {
