@@ -1,10 +1,4 @@
-
-
-
-
-
-        
-    function sendToWhatsApp(event) {
+ function sendToWhatsApp(event) {
         event.preventDefault(); // Evita o envio padrão do formulário
         const name = document.getElementById('name').value;
         const phone = document.getElementById('phone').value;
@@ -40,6 +34,8 @@ function toggleMenu() {
     const menuMobile = document.querySelector('menuMobile');
     menuMobile.style.display = menuMobile.style.display === 'flex' ? 'none' : 'flex';
   }
+
+
 
 
 
