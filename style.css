@@ -181,6 +181,7 @@ nav a:hover {
     border-radius:5px;
     border-left:5px solid #d18f008d;
     margin-right: 5px ;
+   
  }
 
 
@@ -352,6 +353,17 @@ footer {
         margin-bottom: 4px;
 
         }
+
+
+        .galeria{
+        width:70%;
+        margin-left: 10px;
+        white-space: nowrap;
+        overflow: auto;
+        background-color: #f4f4f9;
+        
+        
+    }
          
     }
      
